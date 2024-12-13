@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .continent {
+            margin-bottom: 40px;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 20px;
+        }
+        h2 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        .country {
+            margin: 20px 0;
+        }
+        .spot {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .spot img {
+            width: 100px;
+            height: 75px;
+            object-fit: cover;
+            margin-right: 15px;
+            border-radius: 5px;
+        }
+        .spot h3 {
+            margin: 0;
+        }
+        .spot p {
+            margin: 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Explore Top Tourist Spots Around the World</h1>
+
+    <div class="continent">
+        <h2>Asia</h2>
+        <div class="country">
+            <h3>India</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/09/37/d7/0937d76c20c7c6832179ea9612c90f11.jpg">
+                <div>
+                    <h4>Taj Mahal</h4>
+                    <p>An iconic mausoleum in Agra, symbolizing love.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/b8/49/cd/b849cd45f73e12597cb732ca7997badc.jpg">
+                <div>
+                    <h4>Jaipur City</h4>
+                    <p>Known for its historic palaces and vibrant culture.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/736x/77/c9/22/77c92263fdb5a5a804184e294a6a3232.jpg">
+                <div>
+                    <h4>Kerala Backwaters</h4>
+                    <p>A serene network of lagoons and canals.</p>
+                </div>
+            </div>
+        </div>
+        <div class="country">
+            <h3>Japan</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/68/ac/5f/68ac5f6b85b71c3b3a9d437cbbffeea3.jpg">
+                <div>
+                    <h4>Mount Fuji</h4>
+                    <p>The iconic snow-capped mountain of Japan.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/47/55/ca/4755ca0523caf299505ae160c2a2ca8b.jpg">
+                <div>
+                    <h4>Kyoto Temples</h4>
+                    <p>Beautiful temples and traditional Japanese gardens.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/c4/4d/99/c44d99c988a81d8f79d493416e388f51.jpg">
+                <div>
+                    <h4>Hiroshima Peace Memorial Park</h4>
+                    <p>A tribute to the victims of the atomic bombing.</p>
+                </div>
+            </div>
+        </div>
+        <div class="country">
+            <h3>Thailand</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/6e/c2/04/6ec20483d2f6bcc24714e21da4a8e5cb.jpg">
+                <div>
+                    <h4>Grand Palace, Bangkok</h4>
+                    <p>A stunning complex of buildings with rich history.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/b0/59/f6/b059f6370d70791ebcaebfcd14fdccf4.jpg">
+                <div>
+                    <h4>Phi Phi Islands</h4>
+                    <p>Famous for beautiful beaches and crystal-clear waters.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/d7/b4/10/d7b410a8c5b6e60a4d7c6595fac8169f.jpg">
+                <div>
+                    <h4>Ayutthaya Historical Park</h4>
+                    <p>An ancient city filled with ruins and history.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="continent">
+        <h2>Europe</h2>
+        <div class="country">
+            <h3>France</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/48/89/70/488970ae513bb0605cddc260e8b57bb1.jpg">
+                <div>
+                    <h4>Eiffel Tower</h4>
+                    <p>A world-famous landmark and symbol of Paris.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/70/63/8c/70638c755de3fc8d1d697a2c2a4fe86b.jpg">
+                <div>
+                    <h4>Louvre Museum</h4>
+                    <p>The largest art museum in the world.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/e4/b7/11/e4b71149f5f9bdfe5f4178497dc2d919.jpg">
+                <div>
+                    <h4>Mont Saint-Michel</h4>
+                    <p>A stunning island commune with a medieval abbey.</p>
+                </div>
+            </div>
+        </div>
+        <div class="country">
+            <h3>Italy</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/46/af/f1/46aff120862fb8ca227b765fe0827792.jpg">
+                <div>
+                    <h4>Colosseum</h4>
+                    <p>The largest ancient amphitheater in Rome.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/7a/12/46/7a1246b2a8a2908582e30a402f8fcf83.jpg">
+                <div>
+                    <h4>Venice Canals</h4>
+                    <p>Famous for winding canals and gondolas.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/736x/c9/89/7b/c9897b19a8326827247ac1658ab92c12.jpg">
+                <div>
+                    <h4>Leaning Tower of Pisa</h4>
+                    <p>A freestanding bell tower known for its tilt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="country">
+            <h3>Spain</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/fd/38/3b/fd383ba588791ec3b868e252648a0f42.jpg">
+                <div>
+                    <h4>Sagrada Família</h4>
+                    <p>An iconic basilica designed by Antoni Gaudí.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/e6/c1/36/e6c136d59676c0d2a48950c9beeeed47.jpg">
+                <div>
+                    <h4>Alhambra</h4>
+                    <p>A stunning palatial fortress with Islamic architecture.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/47/29/e6/4729e623266dcff717788cb7f278bb22.jpg">
+                <div>
+                    <h4>Park Güell</h4>
+                    <p>A colorful park showcasing unique Gaudí architecture.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+        <h2>America</h2>
+        <div class="country">
+            <h3>USA</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/d4/31/39/d431393ab2d9c5fc4d321ccd7dd6e18d.jpg">
+                <div>
+                    <h4>Grand Canyon</h4>
+                    <p>A breathtaking canyon carved by the Colorado River.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/bc/0d/2d/bc0d2ddcc30c25c72d710da5bc8a2f0a.jpg">
+                <div>
+                    <h4>Statue of Liberty</h4>
+                    <p>A symbol of freedom in New York City.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/9d/ce/11/9dce115cfc4e7ba876f9fb73ba878a1f.jpg">
+                <div>
+                    <h4>Yellowstone National Park</h4>
+                    <p>The first national park in the world.</p>
+                </div>
+            </div>
+        </div>
+               <div class="country">
+            <h3>Brazil</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/20/cc/32/20cc32af6d309281ac433e1889028e5c.jpg">
+                <div>
+                    <h4>Christ the Redeemer</h4>
+                    <p>Christ the Redeemer is a towering statue in Rio de Janeiro.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/37/b9/0f/37b90f003864f3471152a968c331ae2a.jpg">
+                <div>
+                    <h4>Amazon Rainforest</h4>
+                    <p>The Amazon Rainforest is a tropical forest rich in wildlife and plant species.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/4c/47/b0/4c47b0839c81ea29cfe97c64b14220d1.jpg">
+                <div>
+                    <h4>Iguazu Falls</h4>
+                    <p>Iguazu Falls is a series of waterfalls on the border of Argentina and Brazil.</p>
+                </div>
+            </div>
+        </div>
+        <div class="country">
+            <h3>Canada</h3>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/aa/9c/a7/aa9ca790203adeae483459dda26d42f0.jpg">
+                <div>
+                    <h4>Niagara Falls</h4>
+                    <p>Niagara Falls is a waterfall renowned for its beauty and power.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/e4/bb/4e/e4bb4e70b6dd1042ea2eacc878b06377.jpg">
+                <div>
+                    <h4>Banff National Park</h4>
+                    <p>Banff National Park is a landscape of mountains, lakes, and wildlife.</p>
+                </div>
+            </div>
+            <div class="spot">
+                <img src="https://i.pinimg.com/564x/22/eb/40/22eb40513161ac6fff94e2627fcc8e46.jpg">
+                <div>
+                    <h4>Vancouver City</h4>
+                    <p>Vancouver is known for its stunning scenery and diverse culture.</p>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
